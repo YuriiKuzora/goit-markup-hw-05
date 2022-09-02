@@ -71,7 +71,7 @@
         <div class="container">
           <div class="title-fons">
             <h1 class="subtitle">Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="button">
+            <button type="button" class="button" data-modal-open>
               <span class="button-text">Замовити послугу</span>
             </button>
           </div>
@@ -142,25 +142,22 @@
                 src="./images/index-section-2/img.jpg"
                 alt="Ноутбук"
                 width="370"
-                class="imeg-container"
               />
               <p class="box">Десктопні додатки</p>
             </li>
-            <li class="imeg imeg-container">
+            <li class="imeg">
               <img
                 src="./images/index-section-2/img2.jpg"
                 alt="Телефон"
                 width="370"
-                class="imeg-container"
               />
               <p class="box">Мобільні додатки</p>
             </li>
-            <li class="imeg imeg-container">
+            <li class="imeg">
               <img
                 src="./images/index-section-2/img3.jpg"
                 alt="Планшет"
                 width="370"
-                class="imeg-container"
               />
               <p class="box">Дизайнерські рішення</p>
             </li>
@@ -564,5 +561,16 @@
         </div> -->
       </div>
     </footer>
+    <!-- ?Модальне вікно -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-close-icon" width="18px" height="18px">
+            <use href="./images/svg/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
