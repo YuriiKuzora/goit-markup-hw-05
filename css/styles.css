@@ -549,8 +549,8 @@ img {
 
 
 /* ?Підпишіться на розсилку */
-
-/* .sign-up {
+/* 
+.sign-up {
    padding-top: 10px;
    padding-left: 83px;
 }
@@ -757,3 +757,5 @@ img {
    background-color: transparent;
    border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+/* ?Форми(модальне вікно) */
